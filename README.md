@@ -1,6 +1,8 @@
 # WIndowsAppReset
 Resets/repairs all Windows apps on your device automatically. 
 
+Useful incase you do a system restore and apps fail to load after. 
+
 This script retrieves a list of installed apps using the Get-AppxPackage cmdlet and then iterates through each app, resetting it using the Reset-AppxPackage cmdlet.
 
 ```
